@@ -27,11 +27,16 @@ public class StartBroserTest {
 	public void resizeB() throws InterruptedException{
 		ResizeBrowser re=new ResizeBrowser();
 		re.resizeB();*/
-	@Test
+	/*@Test
 	public void getUr() throws InterruptedException{
 		GetUrl getU=new GetUrl();
 		getU.getUrl();
 		
+	}*/
+	@Test
+	public void simpleLocate() throws InterruptedException{
+		SimpleLocate sm=new SimpleLocate();
+		sm.simpleLocate();
 	}
 	
 }
