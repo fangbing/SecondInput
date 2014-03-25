@@ -33,10 +33,15 @@ public class StartBroserTest {
 		getU.getUrl();
 		
 	}*/
-	@Test
+	/*@Test
 	public void simpleLocate() throws InterruptedException{
 		SimpleLocate sm=new SimpleLocate();
 		sm.simpleLocate();
+	}*/
+	@Test
+	public void simpleA() throws InterruptedException{
+		LocateArray arr=new LocateArray();
+		arr.lodateArray();
 	}
 	
 }
